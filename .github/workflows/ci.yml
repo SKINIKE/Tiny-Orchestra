@@ -22,6 +22,8 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Install Playwright browsers
+        run: pnpm --filter @tiny-orchestra/e2e exec playwright install --with-deps
       - name: Lint
         run: pnpm lint
       - name: Unit tests
