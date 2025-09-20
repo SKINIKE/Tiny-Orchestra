@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+set -e
+
+pnpm exec node ./scripts/check-binaries.mjs
+pnpm exec lint-staged

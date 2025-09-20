@@ -1,0 +1,32 @@
+# node
+node_modules/
+dist/
+build/
+coverage/
+e2e-report/
+e2e/test-results/
+playwright/.cache/
+
+# rust
+**/target/
+apps/desktop/src-tauri/target/
+
+# outputs
+exports/
+*.AppImage
+*.dmg
+*.exe
+*.pdf
+*.png
+*.wav
+*.mid
+*.midi
+*.ttf
+*.woff2
+*.icns
+*.ico
+
+# editor
+.DS_Store
+.idea/
+.vscode/
